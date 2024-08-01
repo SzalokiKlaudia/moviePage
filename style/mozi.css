@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(42, 39, 39);
+}
+
+nav{
+    width: 100%;
+}
+
+#szuro{
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#menu{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgb(88, 24, 13);
+}
+
+#menu button{
+    width: 100%;
+    max-width: 5rem;
+    background: none;
+    outline: transparent; /* átlátszó háttár nélküli gomb*/
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+#menu button:hover{
+    color: white;
+}
+
+#keres{
+    width: 100%;
+    max-width: 300px;
+    height: 2rem;
+    border-radius: 0.4rem;
+    order: 2;
+}
+
+#kereses{
+    width: 100%;
+    max-width: 150px;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin-right: 2.5rem;
+    background-color: rgb(88, 24, 13);
+    color: white;
+    cursor: pointer;
+    order: 3;
+
+}
+
+.kategoria{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.kartya{ /*megmondjuk hogy a szülőhöz képest oszloposan jelenjen meg midnen kártya*/
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer!important;
+
+
+}
+
+#filmek{
+    color: white;
+    padding: 2rem;
+}
+
+.kartya h4{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+img{
+    border-radius: 0.6rem;
+}
+
+button{
+    order: 1;
+    width: 100%;
+    max-width: 60px;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+#left{
+    width: 30px;
+    
+}
+
+.cim{
+    display: block;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+    
+
+}
+
+.szoveg{
+    
+    white-space: normal;
+    margin-left: 1.5rem;
+    text-align: justify;
+
+
+}
+
+.kontener{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    /*max-height: 500px;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer !important;
+}
+
+.holder{
+    
+    width: 100%;
+    max-width: 800px;
+    max-height: 100%;
+
+}
+
+.holder img{
+    width: 30%;
+}
+
+.box{
+    display: flex;
+}
+
+iframe{
+    margin-top: 2rem;
+}
+
+
+
+
+
